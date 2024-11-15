@@ -1,11 +1,12 @@
-// main.cpp
-#include "models/RubiksCube.h"
-#include <iostream>
 
-extern void make();  // Declare the function using extern
+#include "models/RubiksCube.h"
+#include "models/3dArrayReprenstation.cpp"
 
 int main() {
-
-    make();  // Call the function defined in 3dArrayRepresentation.cpp
+    RubiksCube3dArray obj;
+    obj.randomShuffleCube(10);
+    obj.print();
+    obj.u();
+    obj.print();
     return 0;
 }

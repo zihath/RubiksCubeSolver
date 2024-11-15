@@ -8,7 +8,6 @@ char RubiksCube::getColorLetter(COLOR color){
     
     case COLOR::GREEN:
         return 'G';
-    
 
     case COLOR::RED:
         return 'R';

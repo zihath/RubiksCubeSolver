@@ -1,6 +1,5 @@
 //
-// Created by Lakshya Mittal on 17-12-2021.
-//
+// Created by zihath
 
 #include "RubiksCube.h"
 
